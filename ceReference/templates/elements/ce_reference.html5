@@ -1,0 +1,15 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<?php if (count($this->aReferenceItems) > 0): ?>
+    <ul>
+        <?php foreach ($this->aReferenceItems as $sReferenceItem): ?>
+            <li><a href="<?php echo $sReferenceItem['url']; ?>"><?php echo $sReferenceItem['title']; ?></a></li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+    <p><?php echo $this->sEmptyListMessage; ?></p>
+<?php endif; ?>
+
+<?php $this->endblock(); ?>
