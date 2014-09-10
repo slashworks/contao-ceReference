@@ -1,5 +1,5 @@
 {
-    "name": "slashworks/ceReference",
+    "name": "slashworks/ce-reference",
     "description": "Content element to create references to news, faq, or events",
     "keywords":["contentelement","reference","related"],
     "minimum-stability": "stable",
