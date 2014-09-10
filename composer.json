@@ -1,0 +1,41 @@
+{
+    "name": "slashworks/ceReference",
+    "description": "Content element to create references to news, faq, or events",
+    "keywords":["contentelement","reference","related"],
+    "minimum-stability": "stable",
+    "type":"contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name":"Joe Ray Gregory",
+            "homepage":"http://www.slash-works.de",
+            "role":"Developer",
+            "email": "roman@slash-works.de"
+        },
+        {
+            "name": "Roman Wollenburg",
+            "homepage": "http://www.slash-works.de",
+            "role":"Developer",
+            "email": "roman@slash-works.de"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/slashworks/contao-ceReference/issues",
+        "source":"https://github.com/slashworks/contao-ceReference/"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core":">=3.3,<4",
+        "contao-community-alliance/composer-installer":"*"
+    },
+    "autoload":{
+        "classmap":["ceReference/"]
+    },
+    "extra":{
+        "contao":{
+            "sources":{
+                "ceReference":"system/modules/ceReference"
+            }
+        }
+    }
+}
