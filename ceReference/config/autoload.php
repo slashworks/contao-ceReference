@@ -18,4 +18,18 @@
      *
      */
 
-    $GLOBALS['TL_CTE']['includes']['ceReference'] = 'slashworks\ContentReference';
+    /**
+     * Register the classes
+     */
+    ClassLoader::addClasses(array(
+                                'slashworks\ContentReference' => 'system/modules/ceReference/elements/ContentReference.php',
+                            )
+    );
+
+    /**
+     * Register the templates
+     */
+    TemplateLoader::addFiles(array(
+                                 'ce_reference' => 'system/modules/ceReference/templates/elements',
+                             )
+    );

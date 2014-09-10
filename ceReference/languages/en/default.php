@@ -18,4 +18,4 @@
      *
      */
 
-    $GLOBALS['TL_CTE']['includes']['ceReference'] = 'slashworks\ContentReference';
+    $GLOBALS['TL_LANG']['tl_ceReference']['EmpytListMessage'] = 'No entries found';
