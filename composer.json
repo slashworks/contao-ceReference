@@ -27,7 +27,7 @@
         "php":">=5.3",
         "contao/core":">=3.3,<4",
         "contao-community-alliance/composer-installer":"*",
-        "menatwork/contao-multicolumnwizard":"3.2.3.rc1"
+        "menatwork/contao-multicolumnwizard":"3.2.*"
     },
     "autoload":{
         "classmap":["ceReference/"]
